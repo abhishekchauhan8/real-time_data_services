@@ -167,7 +167,7 @@ function App() {
         <Route path="/tega" exact element={<TEGA />} />
         <Route path="/windtopia" exact element={<Windtopia />} />
 
-        <Route path="/" exact element={<Navigate to="piservices" />} />
+        {/* <Route path="/" exact element={<Navigate to="piservices" />} /> */}
         <Route element={<Navigate to="not-found" />} />
       </Routes>
     </React.Fragment>
