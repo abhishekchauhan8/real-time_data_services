@@ -121,7 +121,7 @@ function App() {
     <React.Fragment>
       <Header />
       <Routes>
-        <Route path="/piservices" exact element={<ServicesMain />} />
+        <Route path="/" exact element={<ServicesMain />} />
 
         <Route path="/catalyst" exact element={<Catalyst />} />
         <Route path="/downstream" exact element={<Downstream />} />
