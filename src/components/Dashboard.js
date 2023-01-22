@@ -2,7 +2,7 @@ import Clock from "./Clock";
 
 function Dashboard() {
   return (
-    <section id="hero" class="d-flex align-items-center">
+    <section id="home" class="d-flex align-items-center">
       <div class="container">
         <div class="row">
           <div

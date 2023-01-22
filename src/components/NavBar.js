@@ -7,7 +7,7 @@ function NavBar() {
     <nav id="navbar" class="navbar">
       <ul>
         <li>
-          <a class="nav-link scrollto active" href="#hero">
+          <a class="nav-link scrollto active" href="#home">
             Home
           </a>
         </li>
