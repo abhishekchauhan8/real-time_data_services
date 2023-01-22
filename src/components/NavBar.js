@@ -17,23 +17,23 @@ function NavBar() {
         </li> */}
 
         <li class="dropdown">
-          <a href="#">
+          <a href="piservices#">
             <span>Overview</span> <i class="bi bi-chevron-down"></i>
           </a>
           <ul>
             <li>
-              <a href="#about">What is PI</a>
+              <a href="piservices#about">What is PI</a>
             </li>
             <li class="dropdown">
-              <a href="#why-us">
+              <a href="piservices#why-us">
                 <span>What is Real Time Data Services</span>{" "}
               </a>
             </li>
             <li>
-              <a href="#skills">Real Time Data Services Framework</a>
+              <a href="piservices#skills">Real Time Data Services Framework</a>
             </li>
             <li>
-              <a href="#journey">Real Time Data Services Journey</a>
+              <a href="piservices#journey">Real Time Data Services Journey</a>
             </li>
           </ul>
         </li>

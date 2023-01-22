@@ -121,7 +121,7 @@ function App() {
     <React.Fragment>
       <Header />
       <Routes>
-        <Route path="/" exact element={<ServicesMain />} />
+        <Route path="/piservices" exact element={<ServicesMain />} />
 
         <Route path="/catalyst" exact element={<Catalyst />} />
         <Route path="/downstream" exact element={<Downstream />} />
@@ -167,7 +167,7 @@ function App() {
         <Route path="/tega" exact element={<TEGA />} />
         <Route path="/windtopia" exact element={<Windtopia />} />
 
-        {/* <Route path="/" exact element={<Navigate to="piservices" />} /> */}
+        <Route path="/" exact element={<Navigate to="piservices" />} />
         <Route element={<Navigate to="not-found" />} />
       </Routes>
     </React.Fragment>
