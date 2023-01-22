@@ -10,7 +10,7 @@ import Pricing from "./Pricing";
 import Services from "./Services";
 import Team from "./Team";
 
-function PIServices() {
+function ServicesMain() {
   return (
     <div className="App">
       {/* <Header /> */}
@@ -42,4 +42,4 @@ function PIServices() {
   );
 }
 
-export default PIServices;
+export default ServicesMain;
