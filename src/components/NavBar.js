@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 
 function NavBar() {
+  var address = "real-time_data_services";
+
   return (
     <nav id="navbar" class="navbar">
       <ul>
@@ -17,29 +19,29 @@ function NavBar() {
         </li> */}
 
         <li class="dropdown">
-          <a href="piservices#">
+          <a href="">
             <span>Overview</span> <i class="bi bi-chevron-down"></i>
           </a>
           <ul>
             <li>
-              <a href="piservices#about">What is PI</a>
+              <a href="#about">What is PI</a>
             </li>
             <li class="dropdown">
-              <a href="piservices#why-us">
+              <a href="#why-us">
                 <span>What is Real Time Data Services</span>{" "}
               </a>
             </li>
             <li>
-              <a href="piservices#skills">Real Time Data Services Framework</a>
+              <a href="#skills">Real Time Data Services Framework</a>
             </li>
             <li>
-              <a href="piservices#journey">Real Time Data Services Journey</a>
+              <a href="#journey">Real Time Data Services Journey</a>
             </li>
           </ul>
         </li>
 
         <li>
-          <a class="nav-link scrollto" href="piservices#services">
+          <a class="nav-link scrollto" href="#services">
             Services
           </a>
         </li>
@@ -142,13 +144,13 @@ function NavBar() {
         </li> */}
 
         <li>
-          <a class="nav-link scrollto" href="piservices#team">
+          <a class="nav-link scrollto" href="#team">
             Team
           </a>
         </li>
 
         <li>
-          <a class="nav-link scrollto" href="piservices#contact">
+          <a class="nav-link scrollto" href="#contact">
             Contact
           </a>
         </li>
