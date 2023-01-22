@@ -12,8 +12,8 @@ function Dashboard() {
           >
             <h1>Better Solutions for Better Operations</h1>
             <h2>
-              Real-Time Data team is digitalizing the data journey in agile
-              way like never before
+              Real-Time Data team is digitalizing the data journey in agile way
+              like never before
             </h2>
             <div class="d-flex justify-content-center justify-content-lg-start">
               {" "}
@@ -31,13 +31,13 @@ function Dashboard() {
             </div>
           </div>
           <div
-            class="col-lg-6 order-1 order-lg-2 hero-img"
+            class="col-lg-6 order-1 order-lg-2 home-img"
             data-aos="zoom-in"
             data-aos-delay="200"
           >
             {" "}
             <img
-              src="assets/img/hero-img.png"
+              src="assets/img/home-img.png"
               class="img-fluid animated"
               alt=""
             />
