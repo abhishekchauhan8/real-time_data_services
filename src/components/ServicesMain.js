@@ -9,6 +9,7 @@ import Overview from "./Overview";
 import Pricing from "./Pricing";
 import Services from "./Services";
 import Team from "./Team";
+import RTDCC from "./RTD_cc";
 
 function ServicesMain() {
   return (
@@ -21,6 +22,8 @@ function ServicesMain() {
         <AboutPIServices_Why />
         <AboutPIServices_Journey />
         <AboutPIServices_Framework />
+
+        <RTDCC />
 
         <Services />
         {/* <Pricing /> */}
